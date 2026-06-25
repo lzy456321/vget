@@ -264,3 +264,10 @@ MIT © 2024
 如果这个工具对你有帮助，欢迎点个 ⭐ Star！<br>
 If this helped you, please give it a ⭐ Star!
 </div>
+⚠️ 如果 yt-dlp 自动下载失败 / If yt-dlp auto-download fails
+国内网络可能无法自动下载核心组件，手动执行以下命令：
+mkdir -p ~/bin
+curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/bin/yt-dlp
+chmod +x ~/bin/yt-dlp
+然后正常使用即可。
+Network restrictions in China may block the auto-download. Run the commands above manually if it fails.
